@@ -8,7 +8,6 @@ body {
 }
 
 .container {
-  text-align: center;
   width: 800px;
   margin: 0 auto;
 }
@@ -33,4 +32,19 @@ h2{
 
 a {
   background-image: linear-gradient(to bottom, rgba(233, 253, 240, 1), rgba(233, 253, 240, 1));
+  color: #494949;
+  font-style: italic;
+  font-size: 25px;
+  font-weight: lighter;
+}
+
+a:hover {
+  background-image: linear-gradient(to bottom, rgb(126, 245, 167), rgb(126, 245, 167));;
+}
+
+.banner p {
+  font-style: italic;
+  font-size: 25px;
+  font-weight: lighter;
+  opacity: 0.8;
 }
